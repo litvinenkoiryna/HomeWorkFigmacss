@@ -1,26 +1,29 @@
-.wrapper {
+/*.wrapper {
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
     padding-right: 10px;
     padding-left: 10px;
-    }
+    }*/
 html {
     font-family: Poppins;
     }
+
 h1 {
     font-style: normal;
     font-weight: bold;
     font-size: 44px;
     line-height: 54px;
     color: #2F281E;
-}
+   }
+
 h2{
     color: #2F281E;
     font-size: 36px;
     font-style: normal;
     font-weight: bold;
-}
+  }
+
 .feature__title{
     text-align: center;
     margin-left: auto;
@@ -33,28 +36,31 @@ h2{
     font-weight: 800;
     line-height: 54px;
   }
+
 h4{
     font-style: normal;
     font-weight: bold;
     font-size: 16px;
     line-height: 26px;
     color: #2F281E;
-}
+   }
+
 .navigation{
     display: flex;
     position: absolute;
-    width: 1400px;
-    height: 78px;
+    /*width: 1400px;
+    height: 78px;*/
     left: 1px;
     top: 20px;
 }
 .logo {
-    position: relative;
+    position: relagive;
     width: 185.34px;
     height: 31.97px;
     left: 143px;
     top: 22px;
 }
+
 ul {
     color: #2F281E;
     width: 350px;
@@ -68,14 +74,17 @@ ul {
     margin: 0;
     list-style: none;
     }
+
 ul li a {
     text-decoration: none;
     color: #2F281E;
    }
+
 .main__list{
     margin-left: 470px;
     margin-top:19px;
 }
+
 button {
     font-size: 16px;
     height: 46px;
@@ -93,7 +102,6 @@ button {
     flex-direction: row;
     align-items: flex-end;
     padding-left: 45px;
-
 }
 .btn__in {
     color: black;
